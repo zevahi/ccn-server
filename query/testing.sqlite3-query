@@ -1,0 +1,7 @@
+-- database: /Users/trentmorr/Desktop/ccn-server/data/foo.db
+
+SELECT * FROM "table-name";
+
+insert into birds_t (name, color) VALUES ("american_woodstock", "brown");
+
+CREATE TABLE IF NOT EXISTS messages(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, color TEXT)
