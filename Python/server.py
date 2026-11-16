@@ -59,9 +59,9 @@ class serverManager:
             for sock in self.client_sockets:
                 sock.sendall(message.encode())
 
-    def parse_hello(self, message):
-        foo = json.load(message)
-        return foo
+    # def parse_hello(self, message):
+    #     foo = json.load(message)
+    #     return foo
 
     def parse_message(self, message):
         foo = json.load(message)
